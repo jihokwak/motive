@@ -6,6 +6,3 @@ momopapa.egg-info/SOURCES.txt
 momopapa.egg-info/dependency_links.txt
 momopapa.egg-info/requires.txt
 momopapa.egg-info/top_level.txt
-motive/__init__.py
-motive/bot/__init__.py
-motive/bot/slack.py
