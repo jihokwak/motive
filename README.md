@@ -1,2 +1,0 @@
-# motive
-Bigdata Analysis Utilities
