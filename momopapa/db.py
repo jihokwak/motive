@@ -226,7 +226,7 @@ class ESController(GenericNoSQLContraoller):
         actions = [
             {
                 "_index": self.index,
-                "_id": "-".join([record[pk] for pk in pks]),
+                "_id": "-".join([str(record[pk]) for pk in pks]),
                 "_source": record
             }
             for record in self.records

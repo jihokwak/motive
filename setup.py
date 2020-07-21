@@ -44,7 +44,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="momopapa", # Replace with your own username
-    version="2.0.1",
+    version="2.0.3",
     author="momopapa",
     author_email="datamanage@hellonature.net",
     description="Bigdata Analysis Utilities",
