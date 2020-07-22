@@ -322,8 +322,7 @@ class GenericDBConnector(SSHTunnelMixin, object):
 
 
 class Mysql(GenericDBConnector):
-    def __init__(self, *args, **kwargs):
-        port = kwargs.get('port', 3306)
+    def __init__(self, port=3306, *args, **kwargs):
         super().__init__(protocol="mysql+pymysql", port=port, *args, **kwargs)
 
     def get(self, type='tuple', size=-1):
@@ -339,8 +338,7 @@ class Mysql(GenericDBConnector):
 
 
 class Pgsql(GenericDBConnector):
-    def __init__(self, *args, **kwargs):
-        port = kwargs.get('port', 5432)
+    def __init__(self, port=5432, *args, **kwargs):
         super().__init__(protocol="postgresql", port=port, *args, **kwargs)
 
     def get(self, type='tuple', size=-1):
