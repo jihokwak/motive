@@ -12,7 +12,7 @@ install_requires = [
 'certifi==2019.11.28',
 'cffi==1.14.0',
 'chardet==3.0.4',
-'cryptography==2.9.2',
+'cryptography==3.2',
 'docutils==0.15.2',
 'elasticsearch==7.8.0',
 'fsspec==0.7.4',
