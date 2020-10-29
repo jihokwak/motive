@@ -6,7 +6,7 @@ import setuptools
 
 install_requires = [
 'bcrypt==3.1.7',
-'bleach==3.1.3',
+'bleach==3.1.4',
 'boto3==1.14.28',
 'botocore==1.17.28',
 'certifi==2019.11.28',
